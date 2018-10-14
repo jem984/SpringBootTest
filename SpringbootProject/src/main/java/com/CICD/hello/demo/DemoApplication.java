@@ -11,7 +11,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     public String greet() {
-        return "Testing Spring Boot!";
+        return "Testing Spring Boot in dev!";
     }
 
     public static void main(String[] args) {
